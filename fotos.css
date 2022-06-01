@@ -1,0 +1,86 @@
+ul#album-fotos{
+    width:700px;
+    margin:0 auto;
+    padding:50px;
+    overflow: hidden;
+    list-style: none;
+}
+ul#album-fotos li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border:5px solid #353545f0;
+    background: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    -webkit-transition: all 0.1s ease-in;
+    
+}
+ul#album-fotos li span{
+    opacity: 0;
+    color: white;
+    text-shadow:1px 1px 1px black;
+    background: #353545f0;
+    font-size: 10pt;
+    line-height: 370px;
+    padding: 4px;
+}
+ul#album-fotos li:hover span{
+    opacity: 1;
+}
+ul#album-fotos li#foto01{
+    background:url("./img/hotel1.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto02{
+    background:url("./img/hotel2.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto03{
+    background:url("./img/hotel3.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto04{
+    background: url("./img/hotel4.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto05{
+    background:url("./img/hotel5.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto06{
+    background:url("./img/hotel6.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+}
+ul#album-fotos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}ul#album-fotos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#album-fotos li:hover{
+    -webkit-transform: scale(1.5);
+}
