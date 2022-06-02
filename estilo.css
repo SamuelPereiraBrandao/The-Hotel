@@ -273,6 +273,12 @@ margin: 0px 0px 35px 0px;
   margin: 0px 0px 0px 25px;
   display: inline-block;
 }
+.botoes a:hover{
+  border-radius: 100px;
+  background-color: #4e4e59;
+  color: white;
+  transition: 2s;
+}
 .botoes{
   display: flex;
   margin: -130px 0px 200px 220px;
